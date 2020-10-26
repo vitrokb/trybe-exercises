@@ -1,4 +1,4 @@
-let salarioBruto = 6000
+let salarioBruto = 10000
 let salarioInss = 0
 let salarioIr = 0
 if (salarioBruto < 1556.94){
