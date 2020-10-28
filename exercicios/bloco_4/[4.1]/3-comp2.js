@@ -1,9 +1,19 @@
-let a = 5;
-let b = 6;
-let c = 4;
+//Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
 
-if (a>b){
-    (a>c) ? console.log(a) : console.log(c);
-} else {
-    (b>c) ? console.log(b) : console.log(c);
+function comparaMaisElementos (a, b, c) {
+    if (a > b) {
+        if (a > c) {
+            return (a);
+        } else {
+            return (c);
+        }
+    } else {
+        if (b > c){
+            return (b);
+        } else {
+            return (c);
+        }
+    }
 }
+
+console.log(comparaMaisElementos(5,6,7));
