@@ -6,9 +6,69 @@ html {
   box-sizing: inherit;
 }
 
-@media screen and (min-width: 375px) {
-  .nav {
+@media screen and (max-width: 375px) {
+  body {
+    width: 100%;
+    background-color: #dee2e6;
+  }
+
+  header {
     display: flex;
     justify-content: column;
   }
+
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .menu li {
+    display: flex;
+    margin: 10px;
+    border: 1px solid #343a40;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #6c757d;
+  }
+
+  nav p {
+    font-size: 20px;
+  }
+
+  .aside-one h2 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .main-content h1 {
+    margin-left: 5px;
+  }
+
+  .main-content {
+    margin: 0 5px;
+  }
+
+  .aside-two h2 {
+    margin-left: 10px;
+  }
+
+  footer h3 {
+    margin-left: 10px;
+  }
+
+  footer p {
+    margin: 0 5px;
+  }
+
 }
